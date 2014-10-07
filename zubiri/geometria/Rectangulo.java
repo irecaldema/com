@@ -6,10 +6,10 @@ public class Rectangulo {
 
 	public Rectangulo(double base, double altura)
  {
-	setBase(base);
-	setAltura(altura);
 	area=0;
 	peri=0;
+	setBase(base);
+	setAltura(altura);
  }
 	
 	
