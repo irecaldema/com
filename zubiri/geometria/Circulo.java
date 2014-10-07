@@ -8,9 +8,9 @@ public class Circulo {
 
 	public Circulo(double radio)
  {
-	setRadio(radio);
 	area=0;
 	circu=0;
+	setRadio(radio);
  }
 	
 public void setRadio(double radio) 
