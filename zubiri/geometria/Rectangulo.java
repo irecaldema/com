@@ -34,13 +34,13 @@ public double getaltura()
 
 public double area() 
 {
-	area = getBase()*getAltura();
+	area = getbase()*getaltura();
 	return area;
 }
 
 public double peri() 
 {
-	peri = 2*getBase()+2*getAltura();
+	peri = 2*getbase()+2*getaltura();
 	return peri;
 }
 }
