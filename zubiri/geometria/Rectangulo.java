@@ -13,32 +13,32 @@ public class Rectangulo {
  }
 	
 	
-public void setBase(double base) 
+public void setbase(double base) 
  {
 	this.base = base;
  }	
-public void setAltura(double altura)
+public void setaltura(double altura)
  {
 	this.altura = altura;
  }
 
-public double getBase() 
+public double getbase() 
 {
 	return base;
 }
 
-public double getAltura() 
+public double getaltura() 
 {
 	return altura;
 }
 
-public double Area() 
+public double area() 
 {
 	area = getBase()*getAltura();
 	return area;
 }
 
-public double Peri() 
+public double peri() 
 {
 	peri = 2*getBase()+2*getAltura();
 	return peri;

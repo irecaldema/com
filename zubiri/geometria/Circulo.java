@@ -13,18 +13,18 @@ public class Circulo {
 	setRadio(radio);
  }
 	
-public void setRadio(double radio) 
+public void setradio(double radio) 
  {
 	this.radio = radio;
  }
  
-public double Area() 
+public double area() 
  {	
 	area = NUM_PI*radio*radio;
 	return area;
  }
  
-public double Circu() 
+public double circu() 
  {	
 	circu = 2*NUM_PI*radio;
 	return circu;
