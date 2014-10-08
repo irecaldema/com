@@ -8,8 +8,8 @@ public class Rectangulo {
  {
 	area=0;
 	peri=0;
-	setBase(base);
-	setAltura(altura);
+	setbase(base);
+	setaltura(altura);
  }
 	
 	

@@ -10,7 +10,7 @@ public class Circulo {
  {
 	area=0;
 	circu=0;
-	setRadio(radio);
+	setradio(radio);
  }
 	
 public void setradio(double radio) 
